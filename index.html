@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Assignment 2 for Fahad Hasan Siam</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <style>
+        body 
+        {
+            font-family: "Arabic Typesetting", sans-serif;
+            margin: 0;
+        }
+
+        header 
+        {
+            background: linear-gradient(to bottom, #07d7de, rgb(161, 114, 114));
+            color: rgb(147, 3, 3);
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1 
+        {
+            font-size: 36px;
+            color: #333;
+            animation: moveText 5s ease infinite;
+        }
+
+        .recipe
+        
+         {
+            background: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px;
+            text-align: center;
+            box-shadow: 5px 5px 10px #3aa55e;
+            background: linear-gradient(to bottom, #a8bb5c, #54b4b9);
+        }
+
+        .recipe h2 
+        {
+            font-size: 24px;
+            color: #FF69B4;
+        }
+
+        .recipe-image img {
+            border-radius: 4px;
+            box-shadow: 3px 3px 6px #135e97ee;
+            margin-bottom: 10px;
+        }
+
+        .recipe-details {
+            color: #555;
+        }
+
+        footer {
+            background: #021f0e;
+            color: white;
+            text-align: center;
+            margin-top: 20px;
+            padding: 10px;
+        }
+
+        @keyframes moveText {
+            0% {
+                transform: translateX(0);
+            }
+
+            50% {
+                transform: translateX(20px);
+            }
+
+            100% {
+                transform: translateX(0px);
+            }
+        }
+
+        #p3 {
+            background: blue;
+            padding: 30px;
+            width: 150px;
+            height: auto;
+            color: rgb(0, 0, 0);
+            font-size: 20px;
+            text-align: center;
+            border: 5px solid rgba(147, 147, 147, 0.367);
+            background-image: linear-gradient(to top, red, yellow, rgb(124, 82, 82));
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #p4,#p5 {
+            background: blue;
+            padding: 50px;
+            width: 1290px;
+            min-height: 152px;
+            color: white;
+            font-size: 30px;
+            text-align: justify;
+            margin-bottom: 20px;
+        }
+
+        #p4 {
+            background-image: radial-gradient(rgb(49, 158, 73), rgb(255, 162, 0), black);
+        }
+
+        #p5 {
+            background-image: conic-gradient(red, yellow, black);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Food Recipes</h1>
+    </header>
+
+    <section class="recipe">
+        <h2 id="p3">Cake Recipe</h2>
+        <div class="recipe-info">
+            <div class="recipe-image">
+                <img class="image1" src="https://media0.giphy.com/media/gLp6lD7DNVvGQaY6fi/giphy.gif?cid=ecf05e471l9iq9rtz3ffcmu2p6kof37krhfecen4ehsheqzs&ep=v1_gifs_search&rid=giphy.gif&ct=g"
+                    width="405" height="350" alt="Cake">
+                <img class="image2" src="https://img.freepik.com/free-photo/delicious-cake-with-fruits_23-2150727767.jpg?t=st=1699509669~exp=1699513269~hmac=4f412f14f2fbe467acc380cdba418d1156983fdd517cd727fadc0d9fa6b6f4eb&w=740"
+                    width="400" height="350" alt="cake">
+                <img class="image1" src="https://metro.co.uk/wp-content/uploads/2015/08/birthday-cake-gif.gif?quality=90&strip=all&zoom=1&resize=480%2C269"
+                    width="455" height="350" alt="Cake">
+            </div>
+            <div class="recipe-details">
+                <h3><b>INGREDIENTS</b></h3>
+                <ul id="p4">
+                    <li>2 cups all-purpose flour</li>
+                    <li>1 & 1/2 cups sugar</li>
+                    <li>1/2 cup butter</li>
+                    <li>1 cup milk</li>
+                    <li>3/4 cup cocoa powder</li>
+                    <li>1 tsp baking powder</li>
+                    <li>1/2 tsp baking soda</li>
+                </ul>
+                <h3><b>PROCEDURE</b></h3>
+                <ol id="p5">
+                    <li>Preheat the oven to 350°F (175°C).</li>
+                    <li>Cream together the butter and sugar until light and fluffy.</li>
+                    <li>Sift the flour, cocoa powder, baking powder, and baking soda together.</li>
+                    <li>Add the dry ingredients to the butter and sugar mixture, alternating with the milk.</li>
+                    <li>Pour the batter into a greased and floured cake pan.</li>
+                    <li>Bake for 30-35 minutes or until a toothpick inserted into the center comes out clean.</li>
+                </ol>
+            </div>
+        </div>
+    </section>
+
+    <section class="recipe">
+        <h2 id="p3">Bread Recipe</h2>
+        <div class="recipe-info">
+            <div class="recipe-image">
+                <img class="image1" src="https://png.pngtree.com/thumb_back/fw800/background/20230910/pngtree-bread-with-raisins-nuts-and-wheat-flour-image_13157351.png"
+                    width="400" height="350" alt="Bread">
+                <img class="image2" src="https://st3.depositphotos.com/13349494/17443/i/450/depositphotos_174433372-stock-photo-loaf-of-bread-in-hands.jpg"
+                    width="350" height="300" alt="bread">
+                <img class="image1" src="https://www.dish-works.com/wp-content/uploads/Bread-Knife-Animated-Optimized.gif"
+                    width="450" height="350" alt="Bread">
+            </div>
+            <div class="recipe-details">
+                <h3><b>INGREDIENTS</b></h3>
+                <ul id="p4">
+                    <li>4 cups all-purpose flour</li>
+                    <li>2 & 1/4 tsp active dry yeast</li>
+                    <li>1 & 1/2 cups warm water</li>
+                    <li>1 & 1/2 tsp salt</li>
+                    <li>1 tbsp sugar</li>
+                    <li>2 tbsp olive oil</li>
+                </ul>
+                <h3><b>PROCEDURE</b></h3>
+                <ol id="p5">
+                    <li>In a bowl, combine warm water, sugar, and yeast. Let it sit for about 5-10 minutes until it becomes frothy.</li>
+                    <li>In a large mixing bowl, combine flour and salt. Gradually add the yeast mixture and olive oil, and mix until a dough forms.</li>
+                    <li>Knead the dough on a floured surface for about 10 minutes until it's smooth and elastic.</li>
+                    <li>Place the dough in a greased bowl, cover it, and let it rise for about 1-2 hours or until it doubles in size.</li>
+                    <li>Punch down the dough, shape it into a loaf, and place it in a greased loaf pan.</li>
+                    <li>Cover the pan and let the dough rise again for about 30 minutes.</li>
+                    <li>Preheat the oven to 375°F (190°C) and bake the bread for about 30-35 minutes until it's golden brown and sounds hollow when tapped.</li>
+                </ol>
+            </div>
+        </div>
+    </section>
+
+    <section class="recipe">
+        <h2 id="p3">Muffin Recipe</h2>
+        <div class="recipe-info">
+            <div class="recipe-image">
+                <img class="image1" src="https://www.rainbownourishments.com/wp-content/uploads/2022/08/vegan-carrot-muffins-2-1.jpg"
+                    width="430" height="450" alt="Muffin">
+                <img class="image2" src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExZmI0Z3o5dXZ6aWY2ZXBwdjY2ajc2bnEyNzBwMGM4c2hhemE1ZXU1NSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/cJWNjHqNvUlH5bqoGo/giphy.gif"
+                    width="450" height="400" alt="Muffin">
+                <img class="image1" src="https://media4.giphy.com/media/l41lN9aA6odPNPJsI/giphy.gif?cid=ecf05e47ypzx6ewjaehwbg59u0phfycctm4vz2bzkil2j57x&ep=v1_gifs_search&rid=giphy.gif&ct=g"
+                    width="450" height="380" alt="Muffin">
+            </div>
+            <div class="recipe-details">
+                <h3><b>INGREDIENTS</b></h3>
+                <ul id="p4">
+                    <li>1 & 1/2 cups all-purpose flour</li>
+                    <li>1/2 cup granulated sugar</li>
+                    <li>1/4 cup unsalted butter, melted</li>
+                    <li>1 cup milk</li>
+                    <li>1 egg</li>
+                    <li>1 & 1/2 tsp baking powder</li>
+                    <li>1/2 tsp baking soda</li>
+                </ul>
+                <h3><b>PROCEDURE</b></h3>
+                <ol id="p5">
+                    <li>Preheat the oven to 375°F (190°C). Line a muffin tin with paper liners.</li>
+                    <li>In a large bowl, combine the flour, sugar, baking powder, and baking soda.</li>
+                    <li>In a separate bowl, whisk together the melted butter, milk, and egg.</li>
+                    <li>Pour the wet ingredients into the dry ingredients and mix until just combined.</li>
+                    <li>Spoon the batter into the muffin cups, filling each about 2/3 full.</li>
+                    <li>Bake for 18-20 minutes or until a toothpick inserted into the center of a muffin comes out clean.</li>
+                    <li>Allow the muffins to cool in the tin for a few minutes, then transfer them to a wire rack to cool completely.</li>
+                </ol>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p style="color: rgb(245, 142, 200);">Name: Fahad Hasan Siam</p>
+        <p style="color: rgb(124, 195, 220);">Student Id: 4531730</p>
+        <p style="color: rgb(245, 142, 200);">Email: <a href="mailto:fahad.siam1730@nctorontostudents.ca">fahad.siam1730@nctorontostudents.ca</a></p>
+        <p style="color: rgb(245, 142, 200);">Instructor:SUMITHRA CHANDRASEKAR</p>
+    </footer>
+</body>
+
+</html>
