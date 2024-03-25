@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Register</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script>
+        function registerUser() {
+            // Placeholder for registration
+            // In a real app, you would save user data to a database
+            alert("Registration Successful!");
+            window.location.href = 'login.html'; // Redirect to login after registration
+        }
+    </script>
+</head>
+<body>
+    <h2>Register</h2>
+    <form id="registrationForm" onsubmit="event.preventDefault(); registerUser();">
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br>
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" required><br>
+        <label for="confirmPassword">Confirm Password:</label><br>
+        <input type="password" id="confirmPassword" name="confirmPassword" required><br><br>
+        <input type="submit" value="Register">
+    </form>
+    <p>Already registered? <a href="login.html">Sign in</a></p>
+</body>
+</html>
